@@ -73,7 +73,7 @@ if __name__ == '__main__':
     
         mlflow.set_tag('Classifier', 'RF-model')
        
-        mlflow.sklearn.log_model(clf, 'RF-model')
+        mlflow.sklearn.log_model(model, 'RF-model')
         
         
 
